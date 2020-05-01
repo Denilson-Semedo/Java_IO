@@ -25,14 +25,12 @@ public class JavaIO {
         //try and catch
         //O Programa tenta executar o bloco do codigo try
         try{
-            
             //executa a funcão de criar arquivo
             if(file.createNewFile()){
                 System.out.println("Arquivo criado!");
             }else{
                 System.out.println("Arquivo ja existe!");
-            }
-            
+            }  
         //Se algo de errado acontecer, Imprime a mansagem de erro
         //Evitando Evitando que o pragrama feche caso ocorrer algum erro. 
         }catch(IOException e){
