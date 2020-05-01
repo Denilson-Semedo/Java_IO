@@ -32,7 +32,7 @@ public class JavaIO {
                 System.out.println("Arquivo ja existe!");
             }  
         //Se algo de errado acontecer, Imprime a mansagem de erro
-        //Evitando Evitando que o pragrama feche caso ocorrer algum erro. 
+        //Evitando que o pragrama feche caso ocorrer algum erro. 
         }catch(IOException e){
             System.err.println("Algo deu errado!!");
             e.printStackTrace();
