@@ -35,6 +35,7 @@ public class JavaIO {
         //Evitando Evitando que o pragrama feche caso ocorrer algum erro. 
         }catch(IOException e){
             System.err.println("Algo deu errado!!");
+            e.printStackTrace();
         }
         
     }
